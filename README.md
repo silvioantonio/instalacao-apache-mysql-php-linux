@@ -29,9 +29,9 @@ A primeira forma: `Ctrl + Alt + T`
 
 A segunda forma: Acesse os **Aplicativos** &gt; **Acessórios** e selecione **Terminal**
 
-{% hint style="info" %}
+
 Existem outras formas de se abrir o terminal do linux, ou ate mesmo criar seu proprio atalho em qualquer lugar do sistema, recomendo fortemente que faça uma pesquisa sobre o assunto, alem de ser interessante, ainda é bem divertido poder manusear sua distribuição favorita da forma que quiser.
-{% endhint %}
+
 
 Dentro do terminal iremos utilizar alguns comandos, desse modo é necessario que voce possua o perfil de _super usuario_ ou tenha a senha do perfil _root_ para que possa usar os comando sem maiores problemas.
 
@@ -53,15 +53,15 @@ Os comandos seguintes irão remover todos os pacotes relacionados a versão que 
 
 #### PHP
 
-{% hint style="info" %}
-Apenas lembre-se, caso nao esteja utilizando o perfil root dentro do terminal basta copiar e colar os comandos a seguir para executar as ações em sua distribuição, caso contrario, retire a palavra _`sudo`_ das linhas de comando e execute no terminal.
-{% endhint %}
 
-{% hint style="warning" %}
-Atenção
+Apenas lembre-se, caso nao esteja utilizando o perfil root dentro do terminal basta copiar e colar os comandos a seguir para executar as ações em sua distribuição, caso contrario, retire a palavra _`sudo`_ das linhas de comando e execute no terminal.
+
+
+
+***Atenção
 
 Estou removendo o php5 do meu sistema, caso você possua outra versao, basta mudar o numeral para que fique de acordo com a versão de sua utilização.
-{% endhint %}
+
 
 ```
 sudo apt-get remove --purge php5*
@@ -115,19 +115,18 @@ sudo apt-get update
 
 Essa é uma stack muito conhecida no mundo do desenvolvimento, ou seja, possui um bom suporte e bons exemplos de aplicações praticas, entao sera mais facil utilizar as ferramentas e funcionalidades de cada item nesse conjunto.
 
-{% hint style="info" %}
+
 #### Curiosidade
 
 Essa mesma Stack\(LAMP\) pode ser utilizada em outro sistema operacional, porem ela muda de nome, no sistema Windows essa Stack se chama XAMP\(WAMP se preferir\).
-{% endhint %}
 
-{% hint style="danger" %}
+
 ### ATENÇÂO
 
 durante toda a instalação você pode optar por utilzar os comandos de instalação padrões das ferramentas no terminal de qualquer distribuição linux. 
 
 _Ao fim do tutorial irei colocar os comandos para se instalar as versões mais recentes da ferramenta sem muita complicação._
-{% endhint %}
+
 
 ### PHP 5
 
@@ -159,11 +158,11 @@ sudo aptitude install apache2
 
 Durante a instalação do _MySQL_ sera solicitado uma senha para o banco MySQL, é extremamente recomendado que você coloque uma senha no campo e não deixe em branco.
 
-{% hint style="info" %}
+
 #### Recomendação
 
 Por padrão o usuario vem configurado como _root_ e pode ser modificado posteriormente, caso esqueça da senha ou usuario, bom, é melhor que anote para não esquecer!!!
-{% endhint %}
+
 
 ```text
 sudo aptitude install mysql-server
